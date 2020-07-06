@@ -30,11 +30,14 @@ const router = [
     },
 
     {
-        path: '*',
+        path: '/',
         redirect: { name: 'cssAnimations' },
     },
 ];
 
 export default new Router({
     routes: router,
+    mode: 'history',
+    base: process.env.BASE_URL
+
 });
