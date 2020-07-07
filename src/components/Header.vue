@@ -19,19 +19,27 @@
             return {
                 items: [
                     {
+                        label: 'Konzept',
+                        command: () => {
+                            this.$router.push('Konzept')
+                        }
+                    },
+                    {
+                        label: 'Animationen',
+                        command: () => {
+                            this.$router.push('Animations')
+
+
+                        }},
+
+
+                    {
                         label: 'Impressum',
                         command: () => {
                             this.$router.push('Impressum')
                         }
                     },
                     {
-                        label: 'CSS3 Animationen',
-                        command: () => {
-                            this.$router.push('CssAnimations')
-
-
-                        }
-                    }, {
                         label: 'HTML5 und Media',
                         command: () => {
                             this.$router.push('HtmlMedia')
@@ -42,7 +50,7 @@
                     {
                         label: 'Zeitplan',
                         command: () => {
-                            this.$router.push('/zeitplan')
+                            this.$router.push('Zeitplan')
 
 
                         }
