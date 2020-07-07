@@ -5,6 +5,10 @@ import HtmlMedia from "./views/HtmlMedia";
 import TimePlan from "./views/TimePlan";
 import Concept from "./views/Concept";
 import Animations from "./views/Animations";
+import Mockup from "./views/Mockup";
+import StyleGuide from "./views/StyleGuide";
+import Tests from "./views/Tests";
+import Reflection from "./views/Reflection";
 Vue.use(Router);
 
 const router = [
@@ -33,6 +37,26 @@ const router = [
         name: 'konzept',
         title: 'Konzept',
         component: Concept
+    },{
+        path: '/mockup',
+        name: 'mockup',
+        title: 'Mockup',
+        component: Mockup
+    },{
+        path: '/styleguide',
+        name: 'styleguide',
+        title: 'Style Guide',
+        component: StyleGuide
+    },{
+        path: '/tests',
+        name: 'tests',
+        title: 'Tests',
+        component: Tests
+    },{
+        path: '/reflexion',
+        name: 'reflexion',
+        title: 'Reflexion',
+        component: Reflection
     },
 
 

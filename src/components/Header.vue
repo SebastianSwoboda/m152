@@ -26,13 +26,13 @@
                     },
                     {
                         label: 'Animationen',
+                        icon: 'pi pi-spin pi-spinner',
                         command: () => {
                             this.$router.push('Animations')
 
 
                         }
                     },
-
 
 
                     {
@@ -46,14 +46,43 @@
                     },
                     {
                         label: 'Zeitplan',
+                        icon: 'pi pi-fw pi-calendar-times',
                         command: () => {
                             this.$router.push('Zeitplan')
 
 
                         }
+                    }, {
+                        label: 'Dokumentation',
+                        items: [
+                            {
+                                label: 'Mockup',
+                                command: () => {
+                                    this.$router.push('Mockup')
+                                }
+                            },
+                            {
+                                label: 'Styleguide',
+                                command: () => {
+                                    this.$router.push('StyleGuide')
+                                }
+                            },
+                            {
+                                label: 'Tests',
+                                command: () => {
+                                    this.$router.push('Tests')
+                                }
+                            },{
+                                label: 'Reflexion',
+                                command: () => {
+                                    this.$router.push('Reflexion')
+                                }
+                            },
+                        ]
                     },
                     {
                         label: 'Impressum',
+                        icon: 'pi pi-fw pi-info-circle',
                         command: () => {
                             this.$router.push('Impressum')
                         }
@@ -63,11 +92,6 @@
                 ]
             }
         },
-        methods: {
-            someMethod: function () {
-                alert("Dreckige Hs")
-            }
-        }
     }
 </script>
 

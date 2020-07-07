@@ -7,7 +7,9 @@
             <TabPanel header="Infos">
                 SVG Animationen zu erstellen finde ich ziemlich kompliziert.
                 Man mus zuerst das SVG erstellen und danach jeden Schritt Animieren,
-                was sehr viel Zeit braucht und mir gar nicht Spass macht.
+                was sehr viel Zeit braucht und mir gar nicht Spass macht. Man kann ein SVG auch mit Javascript und
+                CSS3 animieren, um noch komplexere Animationen zu erstellen. Diese Animation braucht auch Keyframes von
+                CSS3.
             </TabPanel>
             <TabPanel header="HTML">
                 <pre class="language-markup">
@@ -80,12 +82,10 @@
             </TabPanel>
         </TabView>
 
-<SvgPure/>
+        <SvgPure/>
         <TabView class="tabViewStyling">
             <TabPanel header="Infos">
-                SVG Animationen zu erstellen finde ich ziemlich kompliziert.
-                Man mus zuerst das SVG erstellen und danach jeden Schritt Animieren,
-                was sehr viel Zeit braucht und mir gar nicht Spass macht.
+                Diese Animation wurde nur mit dem Animate Tag erstellt und braucht kein JS und CSS3.
             </TabPanel>
             <TabPanel header="HTML">
                 <pre class="language-markup">

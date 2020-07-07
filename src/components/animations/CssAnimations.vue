@@ -7,9 +7,8 @@
         <Button :label="buttonText" @click="startAnimation" id="animationStartButton"/>
         <TabView class="tabViewStyling">
             <TabPanel header="Infos">
-                CSS3 Animationen sind für einfache Animationen sehr einfach,
-                aber sobald man irgendeine komplexere Animation will,
-                muss man viel Zeit investieren.
+                Man kann mit CSS3 sehr schnell einfache Animationen erstellen. Aber sobald man eine komplexere Animation
+                machen will, würde ich Canvas Animationen oder SVG Animationen empfehlen.
             </TabPanel>
             <TabPanel header="HTML">
                 <pre class="language-markup">

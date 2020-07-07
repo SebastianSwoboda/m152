@@ -20,6 +20,11 @@
 </script>
 
 <style>
+    .tabViewStyling {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 1%
+    }
     p {
         font-family: Verdana;
     }

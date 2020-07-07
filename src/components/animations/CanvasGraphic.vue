@@ -9,7 +9,8 @@
                 Mit HTML Canvas Grafiken kann man sehr viel machen, ich habe dieses Beispiel im Internet gefunden und
                 mir den
                 JavaScript Code angeschaut.
-                Für mich ist es einfacher eine schöne animierte Canvas Grafik zu erstellen, als eine Vektorgrafik.
+                Für mich ist es einfacher eine schöne animierte Canvas Grafik zu erstellen, als eine Vektorgrafik,
+                da ich schon verwandt mit Javascirpt bin und JS schon mit vielen hilfreichen Methoden kommt
             </TabPanel>
             <TabPanel header="HTML">
                 <pre class="language-markup">

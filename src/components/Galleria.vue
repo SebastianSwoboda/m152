@@ -1,38 +1,47 @@
 <template>
     <div style="text-align: center">
-    <carousel :per-page="3" :autoplay="true" :loop="true" :perPageCustom="[[0, 1], [1080, 3]]" style="width: 50%;display: inline-block;">
-        <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide> <slide>
-            <img src="../assets/skeletonSmall.png" alt="Flumserberg" class="imageStyle"/>
-        </slide>
-    </carousel>
+        <carousel :per-page="1" :autoplay="true" :loop="true"
+                  style="width: 50%;display: inline-block;">
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+            <slide>
+                <img src="../assets/skeletonPng.png" alt="Flumserberg" class="imageStyle"/>
+            </slide>
+        </carousel>
     </div>
 </template>
 
@@ -59,5 +68,11 @@
 <style scoped>
     .imageStyle {
 
+    }
+
+    img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
     }
 </style>
