@@ -8,6 +8,8 @@ import Card from 'primevue/card';
 import VuePrism from 'vue-prism'
 import TabView from 'primevue/tabview';
 import TabPanel from 'primevue/tabpanel';
+import VueCarousel from 'vue-carousel';
+
 
 
 import 'prismjs/themes/prism.css'
@@ -30,12 +32,15 @@ Vue.component("TabView", TabView)
 Vue.component("TabPanel", TabPanel)
 Vue.use(LoadScript);
 Vue.use(VuePrism)
+Vue.use(VueCarousel);
+
 
 import 'primevue/resources/themes/saga-blue/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 
 Vue.config.productionTip = false
+
 
 
 new Vue({

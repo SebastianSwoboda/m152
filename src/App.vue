@@ -4,6 +4,7 @@
         <router-view>
         </router-view>
     </div>
+
 </template>
 
 <script>
@@ -34,13 +35,6 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-
-    }
-
-    #p-tabview {
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-top: 1%
 
     }
 </style>

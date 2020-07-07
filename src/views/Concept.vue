@@ -1,6 +1,6 @@
 <template>
-    <div>
-    <Card>
+    <div style="text-align: center">
+    <Card style="width: 50%; display: inline-block; margin-top: 1%">
         <template slot="title">
             Konzept
         </template>

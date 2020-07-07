@@ -2,7 +2,7 @@
     <div>
         <div>
             <h1>Bilder</h1>
-            <img src="../assets/sebsSetup.jpg" alt="Flumserberg" class="imageStyle"/>
+          <Galleria/>
             <p>
                 HTML unterschtützt vielel verschidnene Formate. Das darüberstehende Bild ist ein JPEG-Bild.
                 JPEG ist das meistverwendete Bild Format.
@@ -27,11 +27,18 @@
             Im Edge Browser funktionieren aber WAV und OGG nicht und Safari unterstützt das OGG File Format nicht.</p>
     </div>
 
+
 </template>
 
 <script>
+    import Galleria from "../components/Galleria";
     export default {
-        name: "HtmlMedia"
+        name: "HtmlMedia",
+        components: {
+            Galleria
+
+        }
+
     }
 </script>
 

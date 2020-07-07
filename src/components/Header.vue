@@ -30,17 +30,14 @@
                             this.$router.push('Animations')
 
 
-                        }},
-
-
-                    {
-                        label: 'Impressum',
-                        command: () => {
-                            this.$router.push('Impressum')
                         }
                     },
+
+
+
                     {
                         label: 'HTML5 und Media',
+                        icon: 'pi pi-fw pi-video',
                         command: () => {
                             this.$router.push('HtmlMedia')
 
@@ -53,6 +50,12 @@
                             this.$router.push('Zeitplan')
 
 
+                        }
+                    },
+                    {
+                        label: 'Impressum',
+                        command: () => {
+                            this.$router.push('Impressum')
                         }
                     },
 
@@ -69,5 +72,6 @@
 </script>
 
 <style scoped>
-
+    .p-menubar-start {
+    }
 </style>

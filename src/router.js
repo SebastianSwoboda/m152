@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Impressum from "@/components/Impressum";
-import HtmlMedia from "@/components/HtmlMedia";
-import TimePlan from "@/components/TimePlan";
+import Impressum from "./views/Impressum";
+import HtmlMedia from "./views/HtmlMedia";
+import TimePlan from "./views/TimePlan";
 import Concept from "./views/Concept";
 import Animations from "./views/Animations";
 Vue.use(Router);
@@ -38,7 +38,7 @@ const router = [
 
     {
         path: '/',
-        redirect: { name: 'cssAnimations' },
+        redirect: { name: 'animations' },
     },
 ];
 
